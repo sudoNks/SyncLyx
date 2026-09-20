@@ -10,6 +10,7 @@
 - Límite de FPS del emulador y bloqueo de los anuncios de now.gg.
 - Medidores de procesador, memoria y almacenamiento en vivo.
 - Modo avanzado para habilitar paquetes arm64-v8a. Viene apagado.
+- Avisos de Play Protect. Un interruptor apaga el aviso de "dispositivo no certificado", que es permanente y no se puede deslizar. No desinstala nada y se revierte desde el mismo sitio.
 
 **Cambios**
 
@@ -22,6 +23,7 @@
 
 - El emulador se detecta y se conecta solo, sin tener que pulsar Conectar primero.
 - Los botones principales cumplen el contraste mínimo de accesibilidad.
+- La pestaña de optimización no se podía recorrer con la rueda del ratón.
 
 ## 1.0.0
 
