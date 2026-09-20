@@ -1,0 +1,56 @@
+Licencia de uso de Sync_Lyx
+Copyright (c) 2026 Dario (@nks_array)
+
+Este documento cubre la aplicacion Sync_Lyx distribuida en forma compilada.
+El codigo fuente no forma parte de esta distribucion y no se licencia aqui.
+
+
+PERMITIDO
+
+  Usar la aplicacion sin costo, para uso personal o comercial, en tantos
+  equipos como quieras.
+
+  Copiarla y compartirla con quien quieras, siempre que se distribuya el
+  archivo instalador original, completo y sin modificar.
+
+  Mencionarla, mostrarla y hacer material sobre ella, incluidos videos y
+  tutoriales.
+
+
+NO PERMITIDO
+
+  Modificar, descompilar o alterar el instalador o la aplicacion, ni
+  distribuir versiones alteradas.
+
+  Vender la aplicacion o cobrar por acceder a ella.
+
+  Presentarla como obra propia o quitarle la autoria.
+
+
+SIN GARANTIA
+
+  La aplicacion se entrega tal cual, sin garantia de ningun tipo, expresa o
+  implicita, incluyendo pero no limitandose a garantias de comerciabilidad,
+  idoneidad para un proposito particular y no infraccion.
+
+  Sync_Lyx modifica ajustes del sistema operativo, entre ellos el registro de
+  Windows, los planes de energia y el archivo hosts. Todos los cambios que
+  aplica quedan registrados con su valor original y pueden revertirse desde la
+  propia aplicacion. Aun asi, el autor no se hace responsable de ningun dano,
+  perdida de datos o mal funcionamiento derivado de su uso.
+
+  Usala bajo tu propia responsabilidad.
+
+
+COMPONENTES DE TERCEROS
+
+  Los ajustes de Windows provienen del catalogo de winutil, de Chris Titus
+  Tech, bajo licencia MIT. La licencia completa viaja dentro de la aplicacion.
+  https://github.com/ChrisTitusTech/winutil
+
+  La aplicacion incluye Android Debug Bridge, parte de las Android SDK
+  Platform Tools de Google, bajo licencia Apache 2.0. El aviso correspondiente
+  viaja dentro de la aplicacion.
+
+  Estos componentes conservan sus respectivas licencias, que prevalecen sobre
+  este documento en todo lo que les concierne.

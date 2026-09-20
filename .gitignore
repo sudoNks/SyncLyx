@@ -1,0 +1,12 @@
+# Este repositorio solo publica documentacion y releases.
+# El instalador se sube como adjunto de cada release, no al historial de git:
+# son 60 MB por version y el repositorio se volveria enorme.
+
+*.exe
+*.zip
+*.msi
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
