@@ -1,81 +1,99 @@
 # Sync_Lyx
 
-Herramienta para Windows que instala y extrae APKs en emuladores Android, y deja el equipo listo para que corran mejor.
+**Version estable actual: Sync_Lyx v1.2.0** · [Descargar v1.2.0](../../releases/latest)
 
-Pensada para quien juega Free Fire en emulador y no quiere pelearse con ADB, variables de entorno ni tutoriales sueltos.
+Novedades destacadas en v1.2.0: extraccion de APKs (saca las aplicaciones instaladas de un emulador o de un telefono, con todos sus splits, y las guarda en una carpeta por aplicacion), ajustes de Windows y aligerado del emulador en tres niveles reversibles, limite de FPS, bloqueo de anuncios de now.gg, medidores de procesador y memoria en vivo, e interfaz rediseniada por completo.
 
-## Descargar
+Instala y extrae APKs en emuladores Android, y deja Windows listo para que corran mejor
 
-La última versión está en la sección [Releases](../../releases/latest).
+[Discord](https://discord.gg/wVPtCwZ58z) · [YouTube](https://www.youtube.com/@Nks_v1) · [Ko-fi](https://ko-fi.com/nks_array) · [Descargar](../../releases/latest)
 
-Se descarga un solo instalador. No hace falta instalar nada más.
+## Que es Sync_Lyx?
 
-## Qué hace
+Sync_Lyx es una herramienta para Windows que instala y extrae APKs en emuladores Android y ajusta el equipo para que los juegos corran mejor, sin usar comandos ni instalar ADB por separado.
 
-**Instalar APKs**
+Pensada para quien juega Free Fire en emulador.
 
-Selecciona la carpeta con los archivos y Sync_Lyx detecta la arquitectura, busca el emulador y hace la instalación completa, incluidos los paquetes divididos en varios APK.
+## Por que Sync_Lyx?
 
-**Extraer aplicaciones**
+**Sin comandos ni configuracion.** Todo lo que normalmente harias en una terminal (conectar por ADB, instalar paquetes divididos, extraer un APK ya instalado) se hace desde la interfaz.
 
-Saca los APK ya instalados de un emulador o de un teléfono, con todos sus splits reales, para instalarlos en otro lado. Útil para pasar un juego del teléfono al emulador sin volver a descargarlo.
+**Todo listo para usar.** No necesitas instalar .NET, ADB ni platform-tools. Todo viene incluido en cada version.
 
-**Optimizar Windows**
+**Reversible.** Los ajustes de Windows y del emulador guardan su valor original y se revierten desde la misma aplicacion. Ningun paquete del emulador se desinstala: solo se desactiva.
 
-Ajustes de rendimiento y privacidad agrupados en tres niveles. Todos guardan el valor original, así que se revierten desde la misma aplicación.
+**Pasa juegos entre dispositivos.** Extrae Free Fire del telefono e instalalo en el emulador, o al reves, sin volver a descargarlo.
 
-**Aligerar el emulador**
+## Descarga
 
-Apaga los paquetes de Android que el emulador no necesita, sube el límite de FPS y bloquea los anuncios de now.gg. Nada se desinstala: todo queda desactivado y se puede reactivar.
+| Formato | Enlace |
+|---|---|
+| Instalador, Windows 10/11 x64 (recomendado) | SyncLyx_Setup_v1.2.0.exe |
+| Portable, Windows 10/11 x64 | SyncLyx_Portable_v1.2.0.zip |
 
-**Planes de energía**
+Todas las versiones: [Releases](../../releases)
 
-Aplica perfiles de energía, importa los perfiles incluidos y crea el plan Ultimate Performance de Windows.
-
-**Limpieza**
-
-Analiza y borra archivos temporales, vacía la papelera y reinicia la caché de shaders de la tarjeta gráfica.
+La version portable no necesita instalacion: descomprime la carpeta y abre SyncLyx.exe.
 
 ## Requisitos
 
-- Windows 10 o Windows 11 de 64 bits
-- Permisos de administrador
-- Un emulador Android compatible si vas a instalar o extraer aplicaciones
+**PC:** Windows 10 o Windows 11 de 64 bits, con permisos de administrador. ADB incluido, no requiere instalacion adicional.
 
-No necesitas instalar .NET, ADB ni platform-tools. Todo va incluido.
-
-## Emuladores compatibles
-
-- BlueStacks
-- MSI App Player
+**Emulador:** BlueStacks o MSI App Player, con el Android Debug Bridge activado en sus ajustes. Solo hace falta si vas a instalar o extraer aplicaciones.
 
 ## La primera vez que lo abras
 
-Windows va a mostrar un aviso azul de SmartScreen porque el instalador no está firmado digitalmente. Firmar un programa tiene un costo anual que este proyecto no cubre por ahora.
+Windows va a mostrar un aviso de SmartScreen porque el instalador no esta firmado digitalmente. Pulsa **Mas informacion** y luego **Ejecutar de todas formas**.
 
-Para continuar, pulsa **Más información** y luego **Ejecutar de todas formas**.
+## Que incluye
+
+**Instalacion de APKs.** Detecta la arquitectura de la carpeta, busca el emulador y hace la instalacion completa, incluidos los paquetes divididos en varios APK.
+
+**Extraccion de aplicaciones.** Lee los splits reales del dispositivo y los guarda en una carpeta con el nombre del paquete, con progreso y velocidad en vivo.
+
+**Ajustes de Windows.** Tres niveles: esenciales para jugar, privacidad y ruido del sistema, y rendimiento visual. Todos reversibles.
+
+**Aligerado del emulador.** Tres niveles de paquetes que el emulador no necesita, mas limite de FPS y bloqueo de anuncios de now.gg.
+
+**Planes de energia.** Aplica perfiles, importa los incluidos y crea el plan Ultimate Performance de Windows.
+
+**Limpieza.** Archivos temporales, papelera y reinicio de la cache de shaders.
 
 ## Cosas que conviene saber
 
-- La aplicación pide permisos de administrador porque modifica el registro de Windows y los planes de energía.
-- Todos los ajustes de Windows guardan su valor original y se revierten desde la aplicación.
-- El nivel 3 del aligerado de emulador puede romper Free Fire en algunas versiones. Está marcado con su advertencia.
-- Chrome nunca se desactiva, porque el inicio de sesión con Facebook depende de su WebView.
+La aplicacion pide permisos de administrador porque modifica el registro de Windows, los planes de energia y el archivo hosts.
 
-## Créditos
+El nivel 3 del aligerado de emulador puede romper Free Fire en algunas versiones. Esta marcado con su advertencia dentro de la aplicacion.
 
-Los ajustes de Windows provienen del catálogo de [winutil](https://github.com/ChrisTitusTech/winutil), de Chris Titus Tech, publicado bajo licencia MIT. Se seleccionó un subconjunto, se reescribieron los textos en español y se agruparon en niveles.
+Chrome nunca se desactiva, porque el inicio de sesion con Facebook depende de su WebView.
 
-La aplicación incluye Android Debug Bridge, parte de las Android SDK Platform Tools de Google, bajo licencia Apache 2.0. El aviso correspondiente viaja dentro de la aplicación.
+## Historial de versiones
 
-## Comunidad
+| Version | Descripcion | Descargar |
+|---|---|---|
+| v1.2.0 | Extraccion de APKs, ajustes de Windows y del emulador en tres niveles, medidores en vivo e interfaz rediseniada | Download |
+| v1.0.0 | Primera version estable: instalacion de APKs, limpieza, shaders y planes de energia | Download |
 
-- YouTube: [@Nks_v1](https://www.youtube.com/@Nks_v1)
-- TikTok: [@nks_array](https://www.tiktok.com/@nks_array)
-- Ko-fi: [nks_array](https://ko-fi.com/nks_array)
+## Creditos
+
+Los ajustes de Windows provienen del catalogo de [winutil](https://github.com/ChrisTitusTech/winutil), de Chris Titus Tech, licencia MIT. Se selecciono un subconjunto, se reescribieron los textos en espaniol y se agruparon en niveles.
+
+Android Debug Bridge es parte de las Android SDK Platform Tools de Google, licencia Apache 2.0. El aviso correspondiente viaja dentro de la aplicacion.
+
+Sync_Lyx es un proyecto independiente creado por [@sudoNks](https://github.com/sudoNks).
 
 ## Licencia
 
-Consulta el archivo [LICENSE](LICENSE).
+Sync_Lyx - Licencia de uso
 
-Este repositorio distribuye la aplicación compilada. El código fuente no es público.
+Copyright (c) 2026 Dario (@nks_array)
+
+Sync_Lyx es gratuito. Puedes usarlo y compartirlo libremente, siempre que se distribuya el instalador original, completo y sin modificar. No esta permitido modificarlo, descompilarlo, venderlo ni presentarlo como obra propia.
+
+El codigo fuente es propietario y no forma parte de esta distribucion.
+
+Se entrega sin garantia de ningun tipo. Sync_Lyx modifica ajustes del sistema; todos quedan registrados con su valor original y pueden revertirse desde la aplicacion, pero el autor no se hace responsable de danios derivados de su uso.
+
+winutil y Android Debug Bridge conservan sus respectivas licencias y no forman parte de esta.
+
+Texto completo: [LICENSE](LICENSE)
