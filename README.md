@@ -28,8 +28,8 @@ Pensada para quien juega Free Fire en emulador.
 
 | Formato | Enlace |
 |---|---|
-| Instalador, Windows 10/11 x64 (recomendado) | SyncLyx_Setup_v1.2.0.exe |
-| Portable, Windows 10/11 x64 | SyncLyx_Portable_v1.2.0.zip |
+| Instalador, Windows 10/11 x64 (recomendado) | [SyncLyx_Setup_v1.2.0.exe](https://github.com/sudoNks/SyncLyx/releases/download/v1.2.0/SyncLyx_Setup_v1.2.0.exe) |
+| Portable, Windows 10/11 x64 | [SyncLyx_Portable_v1.2.0.zip](https://github.com/sudoNks/SyncLyx/releases/download/v1.2.0/SyncLyx_Portable_v1.2.0.zip) |
 
 Todas las versiones: [Releases](../../releases)
 
@@ -71,8 +71,8 @@ Chrome nunca se desactiva, porque el inicio de sesion con Facebook depende de su
 
 | Version | Descripcion | Descargar |
 |---|---|---|
-| v1.2.0 | Extraccion de APKs, ajustes de Windows y del emulador en tres niveles, medidores en vivo e interfaz rediseniada | Download |
-| v1.0.0 | Primera version estable: instalacion de APKs, limpieza, shaders y planes de energia | Download |
+| v1.2.0 | Extraccion de APKs, ajustes de Windows y del emulador en tres niveles, medidores en vivo e interfaz rediseniada | [Descargar](../../releases/tag/v1.2.0) |
+| v1.0.0 | Primera version estable: instalacion de APKs, limpieza, shaders y planes de energia | No publicada en GitHub |
 
 ## Creditos
 
